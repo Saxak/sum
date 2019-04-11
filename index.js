@@ -1,10 +1,10 @@
 'use strict';
-fuction add(numbers) {
+function add(numbers) {
     let result = 0;
     for (let num of numbers) {
         result = result + num;
     }
-    retrun result;
+    return result;
 }
 module.exports = {
     add : add
