@@ -6,3 +6,6 @@ fuction add(numbers) {
     }
     retrun result;
 }
+module.exports = {
+    add : add
+};
